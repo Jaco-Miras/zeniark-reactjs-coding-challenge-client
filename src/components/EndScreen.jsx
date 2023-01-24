@@ -35,7 +35,7 @@ const EndScreen = () => {
     return score;
   }
 
-  console.log(questions);
+  // console.log(questions);
   return (
     <div className="Endscreen">
       <div className="endscreen-card">

@@ -19,9 +19,9 @@ const Quiz = () => {
       .then((res) => res.json())
       .then((res) => setData(res.results));
   }, []);
-  console.log(data);
+  // console.log(data);
 
-  console.log("Q", questions);
+  // console.log("Q", questions);
 
   // get Random Numbers
   function getRandomNumbers() {
