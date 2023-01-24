@@ -1,0 +1,74 @@
+.Menu {
+  z-index: 9999;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  /* background-color: white; */
+}
+
+.menu-card {
+  background-color: white;
+  height: 500px;
+  width: 60%;
+}
+
+.menu-header {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 50px;
+  margin-top: 40px;
+}
+.menu-body1 {
+  background-color: #085696;
+  margin: 20px 100px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 15px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 50px;
+  margin-top: 40px;
+  color: white;
+}
+
+.menu-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  margin: 10px 10px;
+}
+
+.menu-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  text-decoration: underline;
+  font-size: 35px;
+  margin: 20px 20px;
+  background-color: white;
+  outline: none;
+  border-radius: 15px;
+  border: none;
+  font-weight: 600;
+  font-size: 30px;
+  color: #085696;
+  cursor: pointer;
+}
