@@ -19,6 +19,7 @@ const EndScreen = () => {
     navigate("/");
   }
 
+  // Get Question
   function getQuestion(index) {
     return data[questions[index]];
   }
@@ -87,7 +88,7 @@ const EndScreen = () => {
                 </div>
                 <div className="endscreen-icon">
                   <div className="desc-icon">
-                    {getQuestion(index).correct_answer === "True" ? (
+                    {getQuestion(index).correct_answer === answers[index] ? (
                       <HiOutlineCheck
                         style={{
                           fontSize: "40px",
